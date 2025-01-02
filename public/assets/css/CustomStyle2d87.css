@@ -1,0 +1,213 @@
+
+
+canvas{
+
+    display: block;
+
+    vertical-align: bottom;
+
+}
+
+/* ---- particles.js container ---- */
+
+
+
+#particles-js{
+
+    position:absolute; width: 100%;
+
+    height: 100%;
+
+    background-color: #000;
+
+    background-image: url(../img/bg/bg-re.jpg);
+
+    background-repeat: no-repeat;
+
+    background-size: cover;
+
+    background-position: 50% 50%;
+
+}
+
+/* ---- stats.js ---- */
+
+.count-particles{
+
+    background: #000022;
+
+    position: absolute;
+
+    top: 48px;
+
+    left: 0;
+
+    width: 80px;
+
+    color: #13E8E9;
+
+    font-size: .8em;
+
+    text-align: left;
+
+    text-indent: 4px;
+
+    line-height: 14px;
+
+    padding-bottom: 2px;
+
+    font-family: Helvetica, Arial, sans-serif;
+
+    font-weight: bold;
+
+}
+
+.js-count-particles{
+
+    font-size: 1.1em;
+
+}
+
+#stats, .count-particles{
+
+    -webkit-user-select: none;
+
+    margin-top: 5px;
+
+    margin-left: 5px;
+
+}
+
+#stats{
+
+    border-radius: 3px 3px 0 0;
+
+    overflow: hidden;
+
+}
+
+.count-particles{
+
+    border-radius: 0 0 3px 3px;
+
+}
+/*========================================================================*/
+/*load more*/
+
+/*.ra{*/
+    /*display: none;*/
+/*}*/
+
+/*#loadMore{*/
+    /*display: block;*/
+/*}*/
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media(min-width: 375px) {
+
+    .ms-custom .col-lg-2 {
+        width: 50%;
+    }
+
+    .ms-custom .col-lg-7 {
+        width: 20%;
+    }
+
+    .ms-custom .col-lg-3 {
+        width: 30%;
+    }
+
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media(max-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media(min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media(min-width: 992px) {
+
+    .ms-custom .col-lg-2 {
+        flex: 0 0 auto;
+        width: 15.67%;
+    }
+
+    .ms-custom .col-lg-7 {
+		flex: 0 0 auto;
+		width: 73.333333%;
+	}
+
+	.ms-custom .col-lg-3 {
+		flex: 0 0 auto;
+		width: 10%;
+	}
+	
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media(min-width: 1200px) {
+
+    .ms-custom .col-lg-2 {
+        flex: 0 0 auto;
+        width: 20%;
+    }
+
+	.ms-custom .col-lg-7 {
+        flex: 0 0 auto;
+   		width: 70%;
+ 
+	}
+
+	.ms-custom .col-lg-3 {
+		flex: 0 0 auto;
+		width: 10%;
+	}
+
+
+}
+
+
+@media(min-width: 1400px) {
+
+    .ms-custom .col-lg-2 {
+        flex: 0 0 auto;
+        width: 21%;
+    }
+
+	.ms-custom .col-lg-7 {
+        flex: 0 0 auto;
+   		/* width: 58.3333333333%; */
+           width:   72.333333%;
+	}
+
+	.ms-custom .col-lg-3 {
+		flex: 0 0 auto;
+		/* width: 20%; */
+        width: 6%;
+	}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
